@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Girly Poem</title>
   </head>
   <body>
     <div class="container">
-      <header><h1>Welcome to your Feminine Poem Generator</h1></header>
+      <header>
+        <h1>Welcome to your Feminine Poem Generator</h1>
+      </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter any topic of the feminine poem"
@@ -20,12 +24,9 @@
             autocomplete="off"
             class="instructions"
           />
-          <input type="submit" class="sumbit-button" />
+          <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          The poem will go here<br />
-          The poem will go here
-        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
