@@ -1,10 +1,11 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #fdfdcb;
+  background-image: url(https://mintartco.com.au/wp-content/uploads/2022/04/PATTERN73_HAND_DRAWN_FLORAL_PEACH-SWATCH-1.png);
   font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #ec729c;
 }
 .container {
   margin: 120px auto;
@@ -17,24 +18,35 @@ header {
 
 h1 {
   text-align: center;
-  font-weight: 900;
-  font-size: 36px;
+  font-weight: 800;
+  font-size: 29px;
   line-height: 1.5;
-  color: #272044;
+  color: #c54c82;
+}
+
+.form-container {
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
 }
 
 form {
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
   display: flex;
-  margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(39, 22, 66, 0.5);
-  width: 80px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
@@ -43,7 +55,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #f4aeba;
   color: white;
   border: none;
   width: 150px;
@@ -57,12 +69,18 @@ form {
   background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #ec729c;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 30px;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem strong {
-  color: #885df1;
+  color: #c54c82;
+  font-style: italic;
 }
 
 footer {
